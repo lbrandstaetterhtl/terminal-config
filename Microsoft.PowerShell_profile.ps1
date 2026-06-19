@@ -101,3 +101,6 @@ function prompt {
     
     return " "
 }
+
+# Custom Aliases
+Set-Alias -Name nettool -Value "C:\Users\brand\RiderProjects\NetTool\NetTool\bin\Release\net9.0\nettool.exe"
