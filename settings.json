@@ -1,0 +1,132 @@
+{
+    "$help": "https://aka.ms/terminal-documentation",
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions": [],
+    "copyFormatting": "none",
+    "copyOnSelect": false,
+    "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+    "keybindings": [
+        {
+            "id": "Terminal.CopyToClipboard",
+            "keys": "ctrl+c"
+        },
+        {
+            "id": "Terminal.FindText",
+            "keys": "ctrl+shift+f"
+        },
+        {
+            "id": "Terminal.PasteFromClipboard",
+            "keys": "ctrl+v"
+        },
+        {
+            "id": "Terminal.DuplicatePaneAuto",
+            "keys": "alt+shift+d"
+        }
+    ],
+    "newTabMenu": [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
+    "profiles": {
+        "defaults": {
+            "colorScheme": "Galaxy",
+            "opacity": 70,
+            "useAcrylic": true
+        },
+        "list": [
+            {
+                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -NoLogo",
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": false,
+                "name": "Windows PowerShell"
+            },
+            {
+                "commandline": "%SystemRoot%\\System32\\cmd.exe",
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "hidden": false,
+                "name": "Eingabeaufforderung"
+            },
+            {
+                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+                "hidden": false,
+                "name": "Azure Cloud Shell",
+                "source": "Windows.Terminal.Azure"
+            }
+        ]
+    },
+    "schemes": [
+        {
+            "background": "#0C051A",
+            "black": "#1D182B",
+            "blue": "#BD93F9",
+            "brightBlack": "#6272A4",
+            "brightBlue": "#D6ACFF",
+            "brightCyan": "#A4FFFF",
+            "brightGreen": "#69FF94",
+            "brightPurple": "#FF92DF",
+            "brightRed": "#FF6E6E",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#FFFFA5",
+            "cursorColor": "#FF00A0",
+            "cyan": "#8BE9FD",
+            "foreground": "#FBF8FF",
+            "green": "#50FA7B",
+            "name": "Galaxy",
+            "purple": "#FF79C6",
+            "red": "#FF5555",
+            "selectionBackground": "#4C3C6D",
+            "white": "#F8F8F2",
+            "yellow": "#F1FA8C"
+        },
+        {
+            "background": "#1A2B3C",
+            "black": "#282C34",
+            "blue": "#0E639C",
+            "brightBlack": "#65737E",
+            "brightBlue": "#0E9BD1",
+            "brightCyan": "#0099AD",
+            "brightGreen": "#0DE1B1",
+            "brightPurple": "#AB43AA",
+            "brightRed": "#D47186",
+            "brightWhite": "#FEF8EC",
+            "brightYellow": "#D8CB32",
+            "cursorColor": "#E09887",
+            "cyan": "#008486",
+            "foreground": "#E09887",
+            "green": "#0099AD",
+            "name": "Thanatos Dark",
+            "purple": "#928BA6",
+            "red": "#CE4559",
+            "selectionBackground": "#FEF8EC",
+            "white": "#FEF8EC",
+            "yellow": "#D8CB32"
+        },
+        {
+            "background": "#F6F6F0",
+            "black": "#36475B",
+            "blue": "#0E9BD1",
+            "brightBlack": "#65737E",
+            "brightBlue": "#0E639C",
+            "brightCyan": "#29CED1",
+            "brightGreen": "#0DE1B1",
+            "brightPurple": "#AB43AA",
+            "brightRed": "#D47186",
+            "brightWhite": "#1A2B3C",
+            "brightYellow": "#EAA221",
+            "cursorColor": "#0E639C",
+            "cyan": "#008486",
+            "foreground": "#3F5060",
+            "green": "#008A8E",
+            "name": "Thanatos Light",
+            "purple": "#AB43AA",
+            "red": "#E19887",
+            "selectionBackground": "#7899BA",
+            "white": "#7899BA",
+            "yellow": "#EAA221"
+        }
+    ],
+    "theme": "system",
+    "themes": [],
+    "useAcrylicInTabRow": true
+}
