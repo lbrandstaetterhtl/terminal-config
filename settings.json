@@ -31,7 +31,7 @@
     "profiles": {
         "defaults": {
             "colorScheme": "Galaxy",
-            "opacity": 70,
+            "opacity": 50,
             "useAcrylic": true
         },
         "list": [
