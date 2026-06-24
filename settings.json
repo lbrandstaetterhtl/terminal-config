@@ -2,6 +2,7 @@
     "$help": "https://aka.ms/terminal-documentation",
     "$schema": "https://aka.ms/terminal-profiles-schema",
     "actions": [],
+    "compatibility.enableUnfocusedAcrylic": true,
     "copyFormatting": "none",
     "copyOnSelect": false,
     "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
@@ -31,8 +32,8 @@
     "profiles": {
         "defaults": {
             "colorScheme": "Galaxy",
-            "opacity": 15,
-            "useAcrylic": true
+            "opacity": 75,
+            "useAcrylic": false
         },
         "list": [
             {
@@ -56,6 +57,29 @@
         ]
     },
     "schemes": [
+        {
+            "background": "#061A0A",
+            "black": "#1A1625",
+            "blue": "#1A3B6E",
+            "brightBlack": "#4B4267",
+            "brightBlue": "#4169E1",
+            "brightCyan": "#20B2AA",
+            "brightGreen": "#50C878",
+            "brightPurple": "#9B59B6",
+            "brightRed": "#FF4500",
+            "brightWhite": "#FFF8DC",
+            "brightYellow": "#FFD700",
+            "cursorColor": "#FFD700",
+            "cyan": "#008080",
+            "foreground": "#D4AF37",
+            "green": "#1A6B35",
+            "name": "Arcane",
+            "purple": "#6B21A8",
+            "red": "#A30000",
+            "selectionBackground": "#3D1A5C",
+            "white": "#E8DCC8",
+            "yellow": "#B8860B"
+        },
         {
             "background": "#4B178C",
             "black": "#1D182B",
@@ -128,5 +152,6 @@
     ],
     "theme": "system",
     "themes": [],
-    "useAcrylicInTabRow": true
+    "useAcrylicInTabRow": true,
+    "compatibility.enableUnfocusedAcrylic": true
 }

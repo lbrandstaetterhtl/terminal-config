@@ -42,6 +42,8 @@ function Copy-WithBackup ($file, $src, $dest) {
 Copy-WithBackup "settings.json" $scriptDir $wtTargetDir
 Copy-WithBackup "Microsoft.PowerShell_profile.ps1" $scriptDir $psTargetDir
 Copy-WithBackup "galaxy_ascii.txt" $scriptDir $psTargetDir
+Copy-WithBackup "arcane_ascii.txt" $scriptDir $psTargetDir
+Copy-WithBackup "aliases.json" $scriptDir $psTargetDir
 
 Write-Host "==========================================================" -ForegroundColor DarkGray
 Write-Host "🎉 Installation successful!" -ForegroundColor Green

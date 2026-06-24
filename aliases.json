@@ -1,0 +1,6 @@
+[
+    {
+        "Name":  "nettool",
+        "Value": "%USERPROFILE%\\RiderProjects\\NetTool\\NetTool\\bin\\Realease\\net9.0\\nettool.exe"
+    }
+]
